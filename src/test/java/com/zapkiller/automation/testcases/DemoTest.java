@@ -12,7 +12,7 @@ public class DemoTest extends Hooks {
 
     @Test
     public void register_new_user_test() {
-        System.out.println(UIAutomationUtils.readConfig().getProperty("browser"));
+//        System.out.println(UIAutomationUtils.read Config().getProperty("browser"));
         HomePage homePage = new HomePage();
         homePage.navigateToUrl("http://vistacommerce-qa.rf.gd/");
         homePage.clickElement(homePage.signInLink);
