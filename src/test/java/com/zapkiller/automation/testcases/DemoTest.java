@@ -16,5 +16,6 @@ public class DemoTest extends Hooks {
         HomePage homePage = new HomePage();
         homePage.navigateToUrl("http://vistacommerce-qa.rf.gd/");
         homePage.clickElement(homePage.signInLink);
+        UIAutomationUtils.closeBrowser();
     }
 }
